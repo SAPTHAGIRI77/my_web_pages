@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>andhrauniversity</title>
+        <style>
+            #a2{
+                color:white;
+                background-color: black;
+                height:20px;
+                margin-bottom: 10px;
+            }
+            #a2 a{
+                text-decoration: none;
+                color:antiquewhite;
+                margin: 50px;
+            }
+            #a3{
+                background-color:white;
+                float:left;
+                width:400px;
+                padding-left:10px;
+                border-style: solid;
+                border-size:1px;
+                border-color:rgb(184, 183, 183);
+            }
+            #a4{
+                background-color:black;
+                float:left;
+                width:600px;
+                height:600px;
+                margin-left:10px;
+                margin-right: 10px;
+            }
+            #a5{
+                background-color:rgb(254, 255, 255);
+                float:left;
+                width:400px;
+                padding-left: 10px;
+                border-style: solid;
+                border-size:1px;
+                border-color:rgb(184, 183, 183);
+            }
+            #a6{
+                float:left;
+                width:400px;
+                margin-right: 20px;
+                border:solid 1px rgb(146, 144, 144);
+                background-color:beige;
+                padding:10px
+            }
+            #a7{
+                width:100%;
+                height:50px;
+                float: left;
+                background-color:rgb(5, 5, 126);
+                line-height: 50px;
+                margin-top: 10px;
+            }
+            #a9{
+                float:left;
+                width:150px;
+                height:200px;
+                background-attachment:red;
+                padding-top: 70px;
+            }
+            #a10{
+                float:left;
+                background-color:;
+            }
+            #a8{
+                background-color:whitesmoke;
+                float:left;
+            }
+            #a11{
+                float:left;
+                width:1100px;
+                background-color: rgb(2, 2, 54);
+                color:whitesmoke;
+                padding:20px 200px 50px 200px;
+            }
+            #a12,#a13,#a14,#a15{
+                float:left;
+                height:400px;
+                width:250px;
+                margin-right: 10px;
+            }
+            #a16{
+                width:100%;
+                float:left;
+                background-color: rgb(2, 2, 54);
+            }
+            #a4 img{
+                height: 600px;
+                width:600px;
+            }
+            #a7 a{
+                padding:50px;
+                color:whitesmoke;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body style=" background-color:aliceblue;margin:10px">
+        <div id="a1">
+            <img src="http://andhrauniversity.edu.in/img/logo.png">
+            <nav style="float:right;padding:15px">
+            <h4>Email : enquiry@andhrauniversity.edu.in</h4>
+            <h4> Office Timings : Mon-Sat : 10:00 AM to 5:00 PM</h4>
+            <input type="text" placeholder="What do you want to stydy?" style="width:250px;height:20px"><button  ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTxrUIWBBjxNHWpvxESWr5OF9G7rviwYYNt6X-x7ztd9jcfeCQp" width="30px" height="15px"></button>
+            </nav>
+        </div>
+        <div id="a2">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT US</a>
+            <a href="#contact">ADMINISTRATION</a>
+            <a href="#academics">ACADEMICS</a>
+            <a href="#college">COLLEGE</a>
+            <a href="#student">STUDENT CORNER</a>
+            <a href="#exam">EXAMS</a>
+        </div>
+        <div id="a3">
+            <h2 style="color:orange;border-style: solid;border-size:1px;border-color:orange;text-align: center;">VICE CHANCELLOR MESSAGE</h2>
+            <center><img src="http://andhrauniversity.edu.in/img/administration/pvgd_prasad_reddy1.jpg" height="300px" width="300px" style="border:solid 1px"></center>
+            <p style="color:blue"><b>Prof. P.V.G.D. Prasad Reddy</b></p>
+            <p><b>Vice Chancellor</b></p>
+            <p><b>Students want to pursue their passions. They have goals. They dream about life; a better life for themselves and their families and hence they are focussed. Making a Difference in the Life of Every Student is the Priority of my administration, hence I look forward to a deep engagement with Students, Industry, Faculty, and Community to position Andhra university as the national leader in delivering value to the students and offering a transformative educational and life experience</b></p>
+            <button style="color:red;float:right">Read more>></button>
+        </div>
+        <div id="a4">
+            <img class="mySlides" src="https://www.andhrauniversity.edu.in/img/slider/1.jpg" >
+            <img class="mySlides" src="https://www.andhrauniversity.edu.in/img/slider/AU-InGate.jpg" >
+            <img class="mySlides" src="https://www.andhrauniversity.edu.in/img/slider/wal1.jpg">
+          </div>
+          
+          <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+          }
+          </script>
+        </div>
+        <div id="a5">
+            <center><h3 style="color:red">VISION:</h3></center>
+            <p><b>To Create New Frontiers of Knowledge in Quest for Development of the Humane and Just Society.</b></p>
+            <center><h3 style="color:red"> MISSION:</h3></center>
+            <p><b>To Stimulate the academic for promotion of quality of teaching, learning and research.<br>
+                To undertake quality related reasearch studies, consultancy and trainig programmes.<br>
+                To foster global competencies among students and to inculcate value system in them;<br>
+                To promote the use of State of the Art Technology and Quest for Excellence</b></p>
+            <div> 
+                <h3 style="color:red">QUICK LINKS</h3>
+                <a href="#studentfeedback" style="text-decoration: none" >STUDENT FEEDBACK</a><br>  
+                <a href="#faculityprofiles" style="text-decoration: none">FACULTY PROFILES</a><br>
+                <a href="#iqac" style="text-decoration: none">IQAC-AQAR</a>
+            </div>
+        </div>
+        <div id="a7">
+            <a href="news.html" style="padding-left: 500px">NEWS</a>
+            <a href="circular.html">Circular</a>
+            <a href="job.html">Jobs</a>
+            <a href="tenders.html">Tenders</a>
+            <a href="upcoming.html">UpComing Events</a>
+        </div>
+        <div id="a6">
+            <h2 style="color:red;border-style: solid;border-size:1px;border-color:rgb(184, 183, 183);text-align: center;">IMPORTANT NOTICE</h2>
+            <h4 style="color:red">03/02/2020 :: The last date for receipt of PDF applications under RUSA Phase 2.0 is extended upto 18-02-2020 on the same terms and conditions. For any queries please contact Dean, Research & Development, Andhra University.<img src="http://andhrauniversity.edu.in/img/new.gif"></h4></h4>
+            <h4 style="color:green">29/01/2020 :: Seven Day Workshop on “Research Methodology Course for SC/ST PhD Students in Social Sciences”.</h4>
+            <h4 style="color:blue">27/01/2020 :: APRCET-2019 Schedule of Oral Interview, Viva-Voce & Certificate Verification.</h4>
+            <h4 style="color:red">02/01/2020 :: RUSA PDF Notification - 2019 and RUSA PDF Application - 2019.</h4>
+        </div>
+        <div id="a8">
+            <div id="a9">
+                 <img src="https://www.andhrauniversity.edu.in/img/news-icon.png">
+            </div>
+            <div id="a10">
+                <h4><span style="color:blue">06/02/2020 ::</span> Application Form for Biometric Identity Cards.</h4>
+                <h4><span style="color:blue">29/01/2020 ::</span> FINAL REPORT OF THE UGC MAJOR RESEARCH PROJECT (FILE NUMBER : 5-226/2014/(HRP)).<img src="http://andhrauniversity.edu.in/img/new.gif"></h4>
+                <h4><span style="color:blue">17/01/2020 ::</span> FINAL REPORT OF MAJOR RESEARCH PROJECT (FILE NUMBER : 42-303/2013(SR)).</h4>
+                <h4><span style="color:blue">30/12/2019 ::</span> FINAL REPORT OF MAJOR RESEARCH PROJECT (FILE NUMBER : UGC Ltr. 41-991/2012).</h4>
+                <h4><span style="color:blue">16/12/2019 ::</span> FINAL REPORT OF UGC MAJOR RESEARCH PROJECT .</h4>
+                <button style="color:red">Read more</button>
+            </div>
+        </div>
+        <div id="a11">
+            <div id="a12">
+                <h3 style="color:rgb(250, 141, 101)">Admission:</h3> 
+                <h3 style="color:rgb(250, 141, 101)">Administration Wing<hr size="1px"></h3> 
+                <h4>Academic Affairs</h4>
+                <h4>College Development Council (CDC)</h4>
+                <h4>Research & Development</h4>
+                <h4>Computer Centre</h4>
+                <h4>Students Affairs</h4>
+                <h4>IQAC</h4>
+                <h4>Development Centre</h4>
+                <h4>Media Relations</h4>
+                <h4>Information Management Center<br><br>
+                    Engineer's Office</h4>
+            </div>
+            <div id="a13">
+                <h3 style="color:rgb(250, 141, 101)">DIRECTORATE OF ADMISSIONS </h3>
+                <h3 style="color:rgb(250, 141, 101)">Central Facilities<hr size="1px"></h3> 
+                <h4>Dr. B.R. Ambedkar Studies</h4>
+                <h4>Library</h4>
+                <h4>Cyber lab</h4>
+                <h4>Press & Publications</h4>
+                <h4>Training & Placement</h4>
+                <h4>Employement & Guidence Bureau</h4>
+                <h4>Horticulture & Gardening Unit</h4>
+                <h4>Health Services</h4>
+                <h4>National Service Scheme (NSS)</h4>
+                <h4>National Cadet Corps (NCC)</h4>
+            </div>
+            <div id="a14">
+                <h3 style="color:rgb(250, 141, 101)">INTERNATIONAL AFFAIRS </h3>
+                <h3 style="color:rgb(250, 141, 101)">Other Links<hr size="1px"></h3> 
+                <h4>University Tenders</h4>
+                <h4>Student Feedback</h4>
+                <h4>Faculty Profiles</h4>
+                <h4>Apply Online For Transcripts</h4>
+                <h4>Certificate Genuine Verification</h4>
+                <h4>School Of Distance Education</h4>
+                <h4>Directorate Of Admissions</h4>
+                <h4>Chat Box</h4>
+                <h4>APSET - 2019</h4>
+                <h4>APPGECET - 2019</h4>
+            </div>
+            <div id="a15">
+                <h3 style="color:rgb(250, 141, 101)">Sports<hr size="1px"></h3> 
+                <h4>Anti Ragging Committee</h4>
+                <h4>Cell for Differently Abled Persons</h4>
+                <h3 style="color:rgb(250, 141, 101)">University Hostels<hr size="1px"></h3>
+                <h4>Arts & Commerce Hostel<BR><BR>
+                    Science & Technology Hostel<BR><BR>
+                    Engineering Hostel<BR><BR>
+                    Ladies Hostel, Maharanipeta<BR><BR>
+                    Law Hostel<BR><BR>
+                    Research Hostel<BR><BR>
+                    Engineering Ladies Hostel</h4>
+            </div>
+        </div>
+        <div id="a16">
+            <hr size="2px">
+            <h3 style="color:white;text-align:center"><span style="color:rgb(250, 141, 101)">Contact Us :</span>Andhra University, Waltair Junction, Visakhapatnam-530003, Andhra Pradesh, INDIA. Phone : 0891 2844000 | 2844197</h3>
+            <h4 style="color:white;text-align:center">copy right@<a href="https://www.andhrauniversity.edu.in/" style="color:red" target="_blank"> 2018 Andhra University. </a>All rights reserved.</h4>
+        </div>
+    </body>
+</html>
